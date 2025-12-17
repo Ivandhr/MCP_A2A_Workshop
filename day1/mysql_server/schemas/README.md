@@ -1,16 +1,23 @@
 # MySQL Schema Documentation
 
+## Status: ✅ Complete
+
+**Part of:** Day 1 - Session 3 - MySQL MCP Server
+
+This directory contains schema reference documentation for the four MySQL databases available through the MySQL and MES MCP Servers. These documents are designed to help AI agents quickly understand the data structures and construct effective queries.
+
 ## Overview
 
-This directory contains schema reference documentation for the three MySQL databases available through the MES MCP Server. These documents are designed to help AI agents quickly understand the data structures and construct effective queries.
+This directory contains schema reference documentation for the MySQL databases available through the MES MCP Server. These documents are designed to help AI agents quickly understand the data structures and construct effective queries.
 
 ## Available Schemas
 
-| Schema | Purpose | Size | Documentation |
-|--------|---------|------|---------------|
-| **mes_lite** | Core MES production data | 24 tables | [MES_LITE.md](MES_LITE.md) |
-| **mes_custom** | Extended MES features | 113 tables | [MES_CUSTOM.md](MES_CUSTOM.md) |
-| **proveitdb** | Demo/training data | 2 tables | [PROVEITDB.md](PROVEITDB.md) |
+| Schema | Purpose | Size | Documentation | Status |
+|--------|---------|------|---------------|--------|
+| **hivemq_ese_db** | HiveMQ Enterprise Security | User accounts | N/A | ✅ Accessible |
+| **mes_lite** | Core MES production data | 24 tables | [MES_LITE.md](MES_LITE.md) | ✅ Documented |
+| **mes_custom** | Extended MES features | 113 tables | [MES_CUSTOM.md](MES_CUSTOM.md) | ✅ Documented |
+| **proveitdb** | Demo/training data | 2 tables | [PROVEITDB.md](PROVEITDB.md) | ✅ Documented |
 
 ## Quick Reference
 
